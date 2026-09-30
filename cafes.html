@@ -117,8 +117,8 @@
       </section>
 
       <section class="h-[100vh] bg-[#2c1b14] py-20 px-28">
-        <div class="flex items-center justify-center gap-10">
-          <div class="w-[50%]  text-[#9b8177] leading-8 flex flex-col gap-8">
+        <div class="flex justify-center gap-10">
+          <div class="w-[50%] text-[#9b8177] leading-6 flex flex-col gap-8">
             <h2 class="text-4xl font-normal font-caslon">Partner With Us</h2>
             <p class="text-[20px] manrope">
               We provide sustainably sourced, high-altitude beans to specialty
@@ -128,9 +128,16 @@
               equipment support.
             </p>
             <div class="flex flex-col gap-3">
-             <p class="text-lg flex items-center gap-4"> <i class="fa-regular fa-circle-check"></i>Direct Trade Traceability</p>
-             <p class="text-lg flex items-center gap-4"> <i class="fa-regular fa-circle-check"></i>Weekly Custom Roasting</p>
-             <p class="text-lg flex items-center gap-4"> <i class="fa-regular fa-circle-check"></i>24/7 Technical Support</p>
+              <p class="text-lg flex items-center gap-4">
+                <i class="fa-regular fa-circle-check"></i>Direct Trade
+                Traceability
+              </p>
+              <p class="text-lg flex items-center gap-4">
+                <i class="fa-regular fa-circle-check"></i>Weekly Custom Roasting
+              </p>
+              <p class="text-lg flex items-center gap-4">
+                <i class="fa-regular fa-circle-check"></i>24/7 Technical Support
+              </p>
             </div>
 
             <div class="border border-[#9b8177] p-4 rounded-xl bg-[#9b81770d]">
@@ -139,10 +146,56 @@
             </div>
           </div>
 
-          <div class="w-[50%] h-[70%] bg-white">
+          <div class="w-[40%] bg-white rounded-xl flex justify-center">
+            <div class="px-6 py-8">
+              <div class="flex flex-col gap-2">
+                <label>BUSINESS NAME</label>
+                <input
+                  class="border-b p-2"
+                  type="email"
+                  name="email"
+                  placeholder="e.g. The Morning Brew"
+                />
+              </div>
 
+              <div class="flex gap-4 py-4">
+                <div class="flex flex-col gap-2">
+                  <label>CONTACT NAME</label>
+                  <input class="border-b p-2" type="number" name="number" />
+                </div>
+                <div class="flex flex-col gap-2">
+                  <label>EMAIL</label>
+                  <input class="border-b p-2" type="email" name="email" />
+                </div>
+              </div>
+
+              <div class="py-4">
+                <label
+                  class="font-label-sm text-label-sm uppercase text-on-surface-variant block"
+                  >Nature of Business</label
+                ><select
+                  class="w-full bg-surface border-b py-4 appearance-none"
+                >
+                  <option>Specialty Cafe</option>
+                  <option>Restaurant / Hospitality</option>
+                  <option>Office / Workspace</option>
+                  <option>Retail / Boutique</option>
+                </select>
+              </div>
+
+              <div class="flex flex-col gap-2">
+                <label>Message</label>
+                <textarea
+                  class="border-b p-2"
+                  name="Message"
+                  placeholder="Tell us about your coffee vision..."
+                ></textarea>
+              </div>
+              <div class="py-4 flex items-center justify-center">
+              <button class="bg-black text-white py-6 w-full">SEND INQUIRY</button>
+              </div>
+            </div>
           </div>
-          
         </div>
       </section>
 
@@ -159,14 +212,24 @@
       </section>
     </main>
     <nav class="flex justify-center items-center m-20">
-    <div class="fixed bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex itmes-center justify-center py-3 px-14 gap-10">
-        <a class="flex flex-col items-center justify-center" href="./Index.html"><i class="fa-regular fa-house"></i>Home </a>
-        <a class="flex flex-col items-center justify-center" href="./menu.html"><i class="fa-solid fa-mug-saucer"></i>Menu </a>
-        <a class="flex flex-col items-center justify-center" href="./our-story.html"><img class="w-[18px]" src="assets/sparkles.svg">Our Story </a> 
-        <a class="flex flex-col items-center justify-center" href="./cafes.html"><i class="fa-solid fa-location-dot"></i>Cafes </a>
-        
-        
-
-    </div></nav>
+      <div
+        class="fixed bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex itmes-center justify-center py-3 px-14 gap-10"
+      >
+        <a class="flex flex-col items-center justify-center" href="./Index.html"
+          ><i class="fa-regular fa-house"></i>Home
+        </a>
+        <a class="flex flex-col items-center justify-center" href="./menu.html"
+          ><i class="fa-solid fa-mug-saucer"></i>Menu
+        </a>
+        <a
+          class="flex flex-col items-center justify-center"
+          href="./our-story.html"
+          ><img class="w-[18px]" src="assets/sparkles.svg" />Our Story
+        </a>
+        <a class="flex flex-col items-center justify-center" href="./cafes.html"
+          ><i class="fa-solid fa-location-dot"></i>Cafes
+        </a>
+      </div>
+    </nav>
   </body>
 </html>
