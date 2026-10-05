@@ -36,26 +36,30 @@
       </div>
     </header>
     <main>
-      <div
-        class="relative top-12 w-full bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSHOt8--qUyiQPfgRCdDqBIdpyUG6gskGRZI0TnNcKmzT5DuiGtt9yIrgLy_d4_P01mO7SXwm4kMrl63cfC9JAkjlxXaRjjDbfNRZUmqYtKfC_L7d2475LEVd4stwkImK9_BOLRhmlmPF1APJk3FMbMrelqjl6cD2pC_-T0YiPYWv21ksOmr86Kk0LO9iDANhdTMvty4vZFrgRmYcMtGb1YekVBWulFmklmyPhsQu9VVP6PfAr_H57cw')] bg-cover bg-center h-[500px]"
-      >
+      <section>
         <div
-          class="absolute inset-0 flex flex-col gap-5 justify-center items-center"
+          class="relative top-12 w-full bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSHOt8--qUyiQPfgRCdDqBIdpyUG6gskGRZI0TnNcKmzT5DuiGtt9yIrgLy_d4_P01mO7SXwm4kMrl63cfC9JAkjlxXaRjjDbfNRZUmqYtKfC_L7d2475LEVd4stwkImK9_BOLRhmlmPF1APJk3FMbMrelqjl6cD2pC_-T0YiPYWv21ksOmr86Kk0LO9iDANhdTMvty4vZFrgRmYcMtGb1YekVBWulFmklmyPhsQu9VVP6PfAr_H57cw')] bg-cover bg-center h-[500px]"
         >
-          <h2 class="font-caslon text-5xl text-white font-bold">Menu</h2>
+          <div
+            class="absolute inset-0 flex flex-col gap-5 justify-center items-center"
+          >
+            <h2 class="font-caslon text-5xl text-white font-bold">Menu</h2>
 
-          <div class="w-16 border border-[#d3c3be]"></div>
+            <div class="w-16 border border-[#d3c3be]"></div>
 
-          <p class="text-white text-lg">Artisanal Brew & Roast</p>
+            <p class="text-white text-lg">Artisanal Brew & Roast</p>
+          </div>
         </div>
-      </div>
+      </section>
 
       <div class="flex justify-center items-center h-[20vh] gap-10 sticky">
         <a class="" href="#espresso">ESPRESSO BAR</a
         ><a class="" href="#pourover">POUR OVER</a
         ><a class="" href="#seasonal">SEASONAL SPECIALS</a>
       </div>
-      <section>
+
+
+      <section >
         <div class="px-20 flex flex-col gap-3 p-6">
           <h2 class="text-4xl font-normal font-caslon">Espresso Bar</h2>
           <p class="text-[18px] text-[#4F4441] manrope">
@@ -116,7 +120,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="flex flex-wrap md:flex-nowrap">
         <div class="mx-20 my-10">
           <div
             class="w-96 h-[40vh] flex flex-col p-8 bg-[#FFF1E4] gap-2 rounded-lg hover:border"
@@ -147,54 +151,69 @@
         </div>
 
         <div class="flex gap-8 h-[90%] p-4 items-center justify-center">
-        <div class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2">
-          <img
-            class="h-[70%]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2fTMMfx0ha3tCLrrLTglbsmdf5Kj9aAqejVY3z7xuUxdTLY5paE_v9gR-iIbejH-qR3cuEZU5uoh_tD8ObVO_zRuYEFuKDvf_eBdK12wMqD02eOQhaOj6_SvksDTKMv7AmssCKD_VRrSeTC-r2ogV50TD7Zv_liUFF_185lT-PJ8TFH6piAuvSTe_38FpJXxKcCMkMgSNIMa-PTzTrxHcD5OhLGxk1t8fDswfnYDwH04-WFKNpUK_NA"
-          />
-          <div class="flex justify-between">
+          <div
+            class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2"
+          >
+            <img
+              class="h-[70%]"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2fTMMfx0ha3tCLrrLTglbsmdf5Kj9aAqejVY3z7xuUxdTLY5paE_v9gR-iIbejH-qR3cuEZU5uoh_tD8ObVO_zRuYEFuKDvf_eBdK12wMqD02eOQhaOj6_SvksDTKMv7AmssCKD_VRrSeTC-r2ogV50TD7Zv_liUFF_185lT-PJ8TFH6piAuvSTe_38FpJXxKcCMkMgSNIMa-PTzTrxHcD5OhLGxk1t8fDswfnYDwH04-WFKNpUK_NA"
+            />
+            <div class="flex justify-between">
               <h2 class="text-xl font-normal font-caslon">Geisha Reserve</h2>
               <h2 class="text-xl font-normal font-caslon">$12.00</h2>
             </div>
-          <p>Panama • Jasmine, Peach, Bergamot</p>
-          <button class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white">SELECT BREW METHOD</button>
-        </div>
+            <p>Panama • Jasmine, Peach, Bergamot</p>
+            <button
+              class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white"
+            >
+              SELECT BREW METHOD
+            </button>
+          </div>
 
-        <div class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2">
-          <img
-            class="h-[70%]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrQKgFDohEdn-vZ62CK1r4j9dezGqOHqQD4fpbKL4MQRov0nZjGaYCC1KRaD5OqlnH-ieX85fwqNJge--sa-13dtZebwg2-d8h35Ztg1MPLuWfVIG7t0CXuzlXr3oL0c_QBZCXOlLa3SodvfwyQzpo-4rvAYAoi8cE66jKZRL7XGmtaddR4W6IxYRejxjv8jdivzMP1nASNDMnHOVSzXzIz0_V30dfeR1PuWNBXIK-IR-A8XIfTxU4mQ"
-          />
-          <div class="flex justify-between">
+          <div
+            class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2"
+          >
+            <img
+              class="h-[70%]"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrQKgFDohEdn-vZ62CK1r4j9dezGqOHqQD4fpbKL4MQRov0nZjGaYCC1KRaD5OqlnH-ieX85fwqNJge--sa-13dtZebwg2-d8h35Ztg1MPLuWfVIG7t0CXuzlXr3oL0c_QBZCXOlLa3SodvfwyQzpo-4rvAYAoi8cE66jKZRL7XGmtaddR4W6IxYRejxjv8jdivzMP1nASNDMnHOVSzXzIz0_V30dfeR1PuWNBXIK-IR-A8XIfTxU4mQ"
+            />
+            <div class="flex justify-between">
               <h2 class="text-xl font-normal font-caslon">Yirgacheffe</h2>
               <h2 class="text-xl font-normal font-caslon">$8.50</h2>
             </div>
-          <p>Ethiopia • Lemon Zest, Black Tea, Floral</p>
-          <button class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white">SELECT BREW METHOD</button>
-        </div>
+            <p>Ethiopia • Lemon Zest, Black Tea, Floral</p>
+            <button
+              class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white"
+            >
+              SELECT BREW METHOD
+            </button>
+          </div>
 
-        <div class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2">
-          <img
-            class="h-[70%]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuADw8nBfjkvi9XrKMmY2NwL9raQF4SVJnJd6EqWPMUCwm0wyjk5XkqKzk4OVCLlGsnrhEOl8WzwMrJ9PbB-f0H_SJ1iEpLYn-mwC7QreUYwLJ7dJBObhrPJvCUMbZZDKjTHIzvkjZ9GzWDW_JoTwRlyAs9JX1IhmW9dI65NQPhs8il_YAA-o0pdNGJ21HeJOmECzatMy1-jtHt9vI_xeIDuokPpTu4yXb5NVHcOl4RB033u4vKFjLaixQ"
-          />
-          <div class="flex justify-between">
+          <div
+            class="h-[100%] w-96 bg-white p-6 hover:border flex flex-col gap-2"
+          >
+            <img
+              class="h-[70%]"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuADw8nBfjkvi9XrKMmY2NwL9raQF4SVJnJd6EqWPMUCwm0wyjk5XkqKzk4OVCLlGsnrhEOl8WzwMrJ9PbB-f0H_SJ1iEpLYn-mwC7QreUYwLJ7dJBObhrPJvCUMbZZDKjTHIzvkjZ9GzWDW_JoTwRlyAs9JX1IhmW9dI65NQPhs8il_YAA-o0pdNGJ21HeJOmECzatMy1-jtHt9vI_xeIDuokPpTu4yXb5NVHcOl4RB033u4vKFjLaixQ"
+            />
+            <div class="flex justify-between">
               <h2 class="text-xl font-normal font-caslon">Antigua Red</h2>
               <h2 class="text-xl font-normal font-caslon">$7.50</h2>
             </div>
-          <p>Guatemala • Milk Chocolate, Apple, Nutty</p>
-          <button class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white">SELECT BREW METHOD</button>
-        </div>
+            <p>Guatemala • Milk Chocolate, Apple, Nutty</p>
+            <button
+              class="border border-black font-medium p-2 mt-5 hover:bg-black hover:text-white"
+            >
+              SELECT BREW METHOD
+            </button>
+          </div>
         </div>
       </section>
 
-
       <section class="h-[100vh] p-20">
-
-           <div class="flex items-center justify-center gap-2 py-8">
+        <div class="flex items-center justify-center gap-2 py-8">
           <h2 class="text-3xl font-normal font-caslon">Seasonal Specials</h2>
         </div>
-
 
         <div class="flex mx-18 gap-8">
           <div class="w-1/2 h-[40vh] flex">
@@ -206,8 +225,7 @@
             </div>
 
             <div class="py-8 px-6 flex gap-5 flex-col size-full">
-
-               <div class="flex items-center gap-6">
+              <div class="flex items-center gap-6">
                 <span
                   class="text-center text-[#57423A] text-[12px] bg-[#fcdcd0] px-2 py-1 rounded-xl"
                   >SUMMER SERIES</span
@@ -218,22 +236,19 @@
                 <h2 class="text-2xl font-normal font-caslon">
                   Iced Citrus Cold Brew
                 </h2>
-                
               </div>
               <p class="leading-7 text-[18px] text-[#4F4441] manrope">
-                12-hour steeped cold brew infused<br>
-                 with organic orange zest and a hint of<br>
-                 sparkling botanicals.
+                12-hour steeped cold brew infused<br />
+                with organic orange zest and a hint of<br />
+                sparkling botanicals.
               </p>
               <h2 class="text-2xl font-normal font-caslon">$6.50</h2>
             </div>
           </div>
 
-           <div class="w-1/2 h-[40vh] flex">
-
+          <div class="w-1/2 h-[40vh] flex">
             <div class="py-8 px-6 flex gap-5 flex-col size-full">
-
-               <div class="flex items-center gap-6">
+              <div class="flex items-center gap-6">
                 <span
                   class="text-center text-[#728D79] text-[12px] bg-[#ccead2] px-2 py-1 rounded-xl"
                   >EVENING EDIT</span
@@ -241,15 +256,12 @@
               </div>
 
               <div class="flex justify-between">
-                <h2 class="text-2xl font-normal font-caslon">
-                  Espresso Cloud
-                </h2>
-                
+                <h2 class="text-2xl font-normal font-caslon">Espresso Cloud</h2>
               </div>
               <p class="leading-7 text-[18px] text-[#4F4441] manrope">
-               Aerated espresso foam over a chilled<br>
-                dark cocoa base, finished with a<br>
-                 sprinkle of smoked sea salt
+                Aerated espresso foam over a chilled<br />
+                dark cocoa base, finished with a<br />
+                sprinkle of smoked sea salt
               </p>
               <h2 class="text-2xl font-normal font-caslon">$6.50</h2>
             </div>
@@ -260,23 +272,46 @@
               />
             </div>
           </div>
-
-         
         </div>
-
       </section>
 
-    <nav class="flex justify-center items-center m-20">
-    <div class="fixed bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex itmes-center justify-center py-3 px-14 gap-10">
-        <a class="flex flex-col items-center justify-center" href="./Index.html"><i class="fa-solid fa-house"></i>Home </a>
-        <a class="flex flex-col items-center justify-center" href="./menu.html"><i class="fa-solid fa-mug-saucer"></i>Menu </a>
-        <a class="flex flex-col items-center justify-center" href="./our-story.html"><i class="fa-solid fa-star"></i>Our Story </a> 
-        <a class="flex flex-col items-center justify-center" href="./cafes.html"><i class="fa-solid fa-location-dot"></i>Cafes </a>
-        
-        
+      <nav class="flex justify-center items-center m-10 sm:m-20">
+        <div
+          class="fixed bottom-4 sm:bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex items-center justify-around py-3 px-4 sm:px-8 md:px-14 gap-2 sm:gap-6 md:gap-10 w-[calc(100%-30px)] sm:w-auto"
+        >
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./Index.html"
+          >
+            <i class="fa-solid fa-house mb-1"></i>
+            Home
+          </a>
 
-    </div></nav> 
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./menu.html"
+          >
+            <i class="fa-solid fa-mug-saucer mb-1"></i>
+            Menu
+          </a>
 
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./our-story.html"
+          >
+            <i class="fa-solid fa-star mb-1"></i>
+            Our Story
+          </a>
+
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./cafes.html"
+          >
+            <i class="fa-solid fa-location-dot mb-1"></i>
+            Cafes
+          </a>
+        </div>
+      </nav>
     </main>
   </body>
 </html>

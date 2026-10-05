@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>aesthetic-roasts</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
@@ -196,16 +197,43 @@
          </div>
       </section>
 
-    <nav class="flex justify-center items-center m-20">
-    <div class="fixed bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex itmes-center justify-center py-3 px-14 gap-10">
-        <a class="flex flex-col items-center justify-center" href="./Index.html"><i class="fa-solid fa-house"></i>Home </a>
-        <a class="flex flex-col items-center justify-center" href="./menu.html"><i class="fa-solid fa-mug-saucer"></i>Menu </a>
-        <a class="flex flex-col items-center justify-center" href="./our-story.html"><i class="fa-solid fa-star"></i>Our Story </a> 
-        <a class="flex flex-col items-center justify-center" href="./cafes.html"><i class="fa-solid fa-location-dot"></i>Cafes </a>
-        
-        
+    <nav class="flex justify-center items-center m-10 sm:m-20">
+        <div
+          class="fixed bottom-4 sm:bottom-10 z-20 rounded-xl bg-[#FFF1E4] flex items-center justify-around py-3 px-4 sm:px-8 md:px-14 gap-2 sm:gap-6 md:gap-10 w-[calc(100%-30px)] sm:w-auto"
+        >
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./Index.html"
+          >
+            <i class="fa-solid fa-house mb-1"></i>
+            Home
+          </a>
 
-    </div></nav> 
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./menu.html"
+          >
+            <i class="fa-solid fa-mug-saucer mb-1"></i>
+            Menu
+          </a>
+
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./our-story.html"
+          >
+            <i class="fa-solid fa-star mb-1"></i>
+            Our Story
+          </a>
+
+          <a
+            class="flex flex-col items-center justify-center text-xs sm:text-sm"
+            href="./cafes.html"
+          >
+            <i class="fa-solid fa-location-dot mb-1"></i>
+            Cafes
+          </a>
+        </div>
+      </nav> 
     </main>
   </body>
 </html>
